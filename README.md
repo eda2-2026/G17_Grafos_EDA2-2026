@@ -1,2 +1,10 @@
-# G17_Grafos_EDA2-2026
-Repositório dedicado à entrega do trabalho de Grafos da Matéria EDA2, por Cayo Felipe Alencar Câmara e Davi Casseb
+# G17
+---
+## Alunos
+| Matrícula | Aluno |
+| -- | -- |
+| 221022506 | Cayo Felipe Alencar Câmara |
+| 211030765 | Davi Araújo Bady Casseb | 
+
+> Vídeo de apresentação do trabalho: < # > 
+---
