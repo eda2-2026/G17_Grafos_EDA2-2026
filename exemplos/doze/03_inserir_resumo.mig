@@ -1,0 +1,8 @@
+-- migration: 03_inserir_resumo
+-- depends: 02_inserir_titulo
+
+[up]
+INSERIR_APOS "# Relatório de Estrutura de Dados 2" "## Resumo\nEste relatório descreve o sistema de migrations baseado em grafos."
+
+[down]
+REMOVER_TEXTO "## Resumo\nEste relatório descreve o sistema de migrations baseado em grafos."

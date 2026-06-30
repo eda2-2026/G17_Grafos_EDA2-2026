@@ -1,0 +1,8 @@
+-- migration: 05_inserir_introducao
+-- depends: 04_preparar_sumario
+
+[up]
+INSERIR_APOS "(seções serão inseridas abaixo)" "## Introdução\nContexto e objetivos do trabalho."
+
+[down]
+REMOVER_TEXTO "## Introdução\nContexto e objetivos do trabalho."

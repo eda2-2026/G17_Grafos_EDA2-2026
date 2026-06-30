@@ -1,0 +1,8 @@
+-- migration: 06_inserir_metodologia
+-- depends: 04_preparar_sumario
+
+[up]
+INSERIR_APOS "(seções serão inseridas abaixo)" "## Metodologia\nGrafo, ordenação topológica de Kahn e detecção de ciclo."
+
+[down]
+REMOVER_TEXTO "## Metodologia\nGrafo, ordenação topológica de Kahn e detecção de ciclo."

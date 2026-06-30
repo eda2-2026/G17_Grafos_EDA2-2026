@@ -1,0 +1,8 @@
+-- migration: 12_inserir_assinatura
+-- depends: 10_numerar_secoes, 08_inserir_bibliografia
+
+[up]
+INSERIR_FIM "---\nDavi — Engenharia de Software, UnB/FCTE."
+
+[down]
+REMOVER_TEXTO "---\nDavi — Engenharia de Software, UnB/FCTE."

@@ -1,0 +1,8 @@
+-- migration: 10_numerar_secoes
+-- depends: 09_inserir_conclusao
+
+[up]
+SUBSTITUIR "## Introdução" "## 1. Introdução"
+
+[down]
+SUBSTITUIR "## 1. Introdução" "## Introdução"

@@ -1,0 +1,8 @@
+-- migration: 07_inserir_resultados
+-- depends: 04_preparar_sumario
+
+[up]
+INSERIR_APOS "(seções serão inseridas abaixo)" "## Resultados\nTodos os critérios de aceitação foram atendidos."
+
+[down]
+REMOVER_TEXTO "## Resultados\nTodos os critérios de aceitação foram atendidos."

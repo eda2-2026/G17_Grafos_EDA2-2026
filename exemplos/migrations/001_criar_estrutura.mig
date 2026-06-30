@@ -1,0 +1,8 @@
+-- migration: 001_criar_estrutura
+-- depends:
+
+[up]
+CRIAR_ARQUIVO "# Trabalho\n## Sumário\n## Bibliografia"
+
+[down]
+REMOVER_ARQUIVO

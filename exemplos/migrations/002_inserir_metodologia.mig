@@ -1,0 +1,8 @@
+-- migration: 002_inserir_metodologia
+-- depends: 001_criar_estrutura
+
+[up]
+INSERIR_APOS "## Sumário" "## Metodologia\nDescrição da metodologia..."
+
+[down]
+REMOVER_TEXTO "## Metodologia\nDescrição da metodologia..."

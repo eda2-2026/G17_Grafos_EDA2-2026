@@ -1,0 +1,8 @@
+-- migration: 003_inserir_introducao
+-- depends: 001_criar_estrutura
+
+[up]
+INSERIR_APOS "## Sumário" "## Introdução\nEste trabalho aborda..."
+
+[down]
+REMOVER_TEXTO "## Introdução\nEste trabalho aborda..."

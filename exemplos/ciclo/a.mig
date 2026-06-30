@@ -1,0 +1,8 @@
+-- migration: a
+-- depends: b
+
+[up]
+INSERIR_FIM "linha a"
+
+[down]
+REMOVER_TEXTO "linha a"

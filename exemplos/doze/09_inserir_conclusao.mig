@@ -1,0 +1,8 @@
+-- migration: 09_inserir_conclusao
+-- depends: 05_inserir_introducao, 06_inserir_metodologia, 07_inserir_resultados
+
+[up]
+INSERIR_APOS "## Resultados" "## Conclusão\nO grafo de dependências resolveu a ordem de aplicação corretamente."
+
+[down]
+REMOVER_TEXTO "## Conclusão\nO grafo de dependências resolveu a ordem de aplicação corretamente."

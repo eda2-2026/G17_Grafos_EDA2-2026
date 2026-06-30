@@ -1,0 +1,8 @@
+-- migration: 004_renumerar_secoes
+-- depends: 002_inserir_metodologia, 003_inserir_introducao
+
+[up]
+SUBSTITUIR "## Introdução" "## 1. Introdução"
+
+[down]
+SUBSTITUIR "## 1. Introdução" "## Introdução"

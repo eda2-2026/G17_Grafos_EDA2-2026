@@ -1,0 +1,8 @@
+-- migration: 01_criar_documento
+-- depends:
+
+[up]
+CRIAR_ARQUIVO "# Documento\n## Sumário\n## Referências"
+
+[down]
+REMOVER_ARQUIVO

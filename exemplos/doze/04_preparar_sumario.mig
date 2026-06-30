@@ -1,0 +1,8 @@
+-- migration: 04_preparar_sumario
+-- depends: 01_criar_documento
+
+[up]
+INSERIR_APOS "## Sumário" "(seções serão inseridas abaixo)"
+
+[down]
+REMOVER_TEXTO "(seções serão inseridas abaixo)"

@@ -1,0 +1,8 @@
+-- migration: 08_inserir_bibliografia
+-- depends: 01_criar_documento
+
+[up]
+INSERIR_APOS "## Referências" "- Cormen et al., Introduction to Algorithms.\n- Kahn, A. B. (1962). Topological sorting."
+
+[down]
+REMOVER_TEXTO "- Cormen et al., Introduction to Algorithms.\n- Kahn, A. B. (1962). Topological sorting."

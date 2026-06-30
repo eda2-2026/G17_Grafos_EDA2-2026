@@ -1,0 +1,8 @@
+-- migration: 11_revisar_lingua
+-- depends: 10_numerar_secoes
+
+[up]
+SUBSTITUIR "Contexto e objetivos do trabalho." "Contexto, motivação e objetivos do trabalho."
+
+[down]
+SUBSTITUIR "Contexto, motivação e objetivos do trabalho." "Contexto e objetivos do trabalho."

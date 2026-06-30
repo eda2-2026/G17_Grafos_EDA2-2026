@@ -1,0 +1,8 @@
+-- migration: 02_inserir_titulo
+-- depends: 01_criar_documento
+
+[up]
+SUBSTITUIR "# Documento" "# Relatório de Estrutura de Dados 2"
+
+[down]
+SUBSTITUIR "# Relatório de Estrutura de Dados 2" "# Documento"
