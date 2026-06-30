@@ -124,4 +124,4 @@ Cada `up` tem um `down` que o reverte: `INSERIR_APOS`/`INSERIR_FIM` são reverti
 * Motor de texto puro e reversível, com diff por subsequência comum (LCS)
 * Núcleo desacoplado da interface, testável sem Tkinter
 ### Demonstração
-[Link do vídeo no YouTube](< # >)
+[Link do vídeo no YouTube](<https://youtu.be/BIjA0j3kYSA>)
