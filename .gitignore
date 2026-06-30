@@ -1,0 +1,7 @@
+# Artefatos de execução das migrations (gerados em runtime)
+exemplos/**/.estado.json
+exemplos/**/*.txt
+
+# Python
+__pycache__/
+*.pyc
